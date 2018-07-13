@@ -6,7 +6,7 @@
       "direction": "in",
       "databaseName": "phonebookdb",
       "collectionName": "phonebookcollection",
-      "connection": "mycosmosaccount_COSMOSDB"
+      "connection": "mycosmosaccount_DOCUMENTDB"
     },
     {
       "type": "queue",

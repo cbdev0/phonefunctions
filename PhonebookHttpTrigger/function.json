@@ -18,7 +18,7 @@
       "name": "resDocs",
       "collectionName": "phonebookcollection",
       "databaseName": "phonebookdb",
-      "connection": "mycosmosaccount_COSMOSDB"
+      "connection": "mycosmosaccount_DOCUMENTDB"
     }
   ]
 }
