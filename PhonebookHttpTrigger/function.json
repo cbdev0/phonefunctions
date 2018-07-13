@@ -1,0 +1,24 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "documentDB",
+      "direction": "out",
+      "name": "resDocs",
+      "collectionName": "phonebookcollection",
+      "databaseName": "phonebookdb",
+      "connection": "mycosmosaccount_COSMOSDB"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "databaseName": "phonebookdb",
+      "collectionName": "phonebookcollection",
+      "connection": "mycosmosaccount_COSMOSDB"
+    },
+    {
+      "type": "queue",
+      "name": "updatedDoc",
+      "direction": "out",
+      "queueName": "updated-cosmos-docs"
+    }
+  ]
+}
