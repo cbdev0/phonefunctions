@@ -6,7 +6,11 @@
       "direction": "in",
       "databaseName": "phonebookdb",
       "collectionName": "phonebookcollection",
-      "connection": "mycosmosaccount_DOCUMENTDB"
+      "connection": "mycosmosaccount_DOCUMENTDB",
+      "createLeasCollectionIfNotExists": true,
+      "leaseDatabaseName": "phonebookdb",
+      "leaseCollectionName": "phonebookcollection",
+      "leaseConnectionStringSetting":"mycosmosaccount_DOCUMENTDB"
     },
     {
       "type": "queue",
